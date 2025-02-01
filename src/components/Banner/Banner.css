@@ -1,0 +1,64 @@
+.banner {
+    font-family: "Roboto", serif;
+}
+
+.banner__imagen {
+    position: absolute; /* Se posiciona de forma absoluta */
+    margin-top: 110px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Envía la imagen al fondo */
+    object-fit: cover; /* Ajusta la imagen para cubrir el fondo sin deformarse */
+}
+
+.banner__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Gradiente */
+    pointer-events: none; /* Permite que la imagen debajo siga siendo interactiva */
+    z-index: -1; /* El overlay está encima de la imagen */
+}
+
+.banner__figure {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+}
+
+.banner__figure--imagen {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.banner__figcaption {
+    margin-right: 50px;
+    color:white;
+}
+
+.banner__button {
+    background-color: #6BD1FF;
+    color: #F5F5F5;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    letter-spacing: -1px;
+    padding: 20px;
+    cursor: pointer; /* Agrega interactividad */
+}
+
+.banner__titulo {
+    font-size: 33px; 
+    font-weight: 400;
+}
+
+.banner__parrafo {
+    font-weight: 200;
+}
