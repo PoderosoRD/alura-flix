@@ -1,0 +1,11 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "equipo":"Front End",
+            "titulo": "Front-end vs. Back-end: ¡Descubre el lado perfecto para ti! #LuchaDev",
+            "descripcion": "3 mil visualizaciones",
+            "url": "https://www.youtube.com/embed/QjOWz9avkg8"
+        }
+    ]
+}

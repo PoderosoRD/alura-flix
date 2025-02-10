@@ -2,7 +2,7 @@ import "./Banner.css"
 
 const Banner = () => {
     return (
-        <banner className="banner">
+        <section className="banner">
             <img className="banner__imagen"src="./img/banner.png" alt="Banner"/>
             <div className="banner__overlay"></div>
             <figure className="banner__figure">
@@ -17,7 +17,7 @@ const Banner = () => {
                     </p>
                 </figcaption>
             </figure>
-        </banner>
+        </section>
     )
 }
 

@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    padding: 0 43px;
+    background-color: #000000;
+}
+
+.boton__front-end {
+    background-color: #6BD1FF;
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    letter-spacing: -1px;
+    padding: 15px 70px;
+    cursor: pointer;
+}
+
+.lista__videos {
+    margin: 0;
+    padding: 25px 0 60px 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor__videos {
+    border-radius: 20px;
+    border: solid 3px #6BD1FF;
+    width: 375px;
+    height: 279px;
+}
