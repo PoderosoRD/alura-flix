@@ -8,132 +8,132 @@ const Equipos = () => {
     return (
         <section className="section">
             <article>
-            <button className="boton__front-end">FRONT END</button>
+            <button className="boton front-end">FRONT END</button>
             <ul className="lista__videos">
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos front-end">
+                        <img className="imagen front-end"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line /></span>
-                                <p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                <p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
-                                <p>Editar</p>
-                            </div>
+                                Editar
+                            </button>
                         </div>
                     </figure>
                 </li> 
                 <li>
-                    <figure className="contenedor__videos"> 
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos front-end"> 
+                        <img className="imagen front-end" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line />
-                                </span><p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                </span><p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
                                 <p>Editar</p>
-                            </div>
+                            </button>
                         </div>
                     </figure> 
                 </li> 
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos front-end">
+                        <img className="imagen front-end" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borarr</p></div>
-                            <div className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></div>
+                            <button className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borrar</p></button>
+                            <button className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></button>
                         </div>
                     </figure>
                 </li> 
             </ul>
             </article>
             <article>
-            <button className="boton__front-end">FRONT END</button>
+            <button className="boton back-end">BACK END</button>
             <ul className="lista__videos">
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos back-end">
+                        <img className="imagen back-end"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line /></span>
-                                <p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                <p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
                                 <p>Editar</p>
-                            </div>
+                            </button>
                         </div>
                     </figure>
                 </li> 
                 <li>
-                    <figure className="contenedor__videos"> 
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos back-end"> 
+                        <img className="imagen back-end" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line />
-                                </span><p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                </span><p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
                                 <p>Editar</p>
-                            </div>
+                            </button>
                         </div>
                     </figure> 
                 </li> 
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos back-end">
+                        <img className="imagen back-end" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borarr</p></div>
-                            <div className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></div>
+                            <button className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borrar</p></button>
+                            <button className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></button>
                         </div>
                     </figure>
                 </li> 
             </ul>
             </article>
             <article>
-            <button className="boton__front-end">FRONT END</button>
+            <button className="boton innovacion-gestion">INNOVACION Y GESTION</button>
             <ul className="lista__videos">
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos innovacion-gestion">
+                        <img className="imagen innovacion-gestion"  src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line /></span>
-                                <p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                <p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
                                 <p>Editar</p>
-                            </div>
+                            </button>
                         </div>
                     </figure>
                 </li> 
                 <li>
-                    <figure className="contenedor__videos"> 
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos innovacion-gestion"> 
+                        <img className="imagen innovacion-gestion" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos">
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><RiDeleteBin2Line />
-                                </span><p>Borarr</p>
-                            </div>
-                            <div className="editar__videos__elementos">
+                                </span><p>Borrar</p>
+                            </button>
+                            <button className="editar__videos__elementos">
                                 <span className="icono"><AiOutlineEdit /></span>
                                 <p>Editar</p>
-                            </div>
+                            </button>
                         </div>
                     </figure> 
                 </li> 
                 <li>
-                    <figure className="contenedor__videos">
-                        <img className="imagen" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
+                    <figure className="contenedor__videos innovacion-gestion">
+                        <img className="imagen innovacion-gestion" src="https://www.youtube.com/embed/QjOWz9avkg8"/>
                         <div className="editar__video">
-                            <div className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borarr</p></div>
-                            <div className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></div>
+                            <button className="editar__videos__elementos"><span className="icono"><RiDeleteBin2Line /></span><p>Borrar</p></button>
+                            <button className="editar__videos__elementos"><span className="icono"><AiOutlineEdit /></span><p>Editar</p></button>
                         </div>
                     </figure>
                 </li> 

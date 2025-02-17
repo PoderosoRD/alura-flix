@@ -1,12 +1,11 @@
 .header {
-    max-width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #262626;
-    padding: 42.5px 51.15px;
+    padding: 28px 45px;
     align-items: center;
     border-bottom: 5px solid #2271D1; /* Borde inferior */
-    box-shadow: 0 10px 30px rgba(34, 113, 209, 0.8); /* Difuminado hacia afuera */
+    box-shadow: 0 10px 30px rgba(34, 113, 209, 0.6); /* Difuminado hacia afuera */
     /* El primer valor (0) es el desplazamiento horizontal */
     /* El segundo valor (4px) es el desplazamiento vertical */
     /* El tercer valor (15px) es el difuminado */
@@ -21,8 +20,8 @@
 .header__botton {
     border: solid 2.5px white;
     border-radius: 10px;
-    width: 180px;
-    height: 54px;
+    width: 170px;
+    height: 45px;
     background-color: transparent;
     color: white;
     font-size: 18px;

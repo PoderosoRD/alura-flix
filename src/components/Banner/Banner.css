@@ -4,11 +4,10 @@
 
 .banner__imagen {
     position: absolute; /* Se posiciona de forma absoluta */
-    margin-top: 110px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     z-index: -2; /* Envía la imagen al fondo */
     object-fit: cover; /* Ajusta la imagen para cubrir el fondo sin deformarse */
 }
@@ -19,7 +18,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Gradiente */
+    background: rgba(0, 0, 0, 0.4); /* Gradiente */
     pointer-events: none; /* Permite que la imagen debajo siga siendo interactiva */
     z-index: -1; /* El overlay está encima de la imagen */
 }
@@ -29,11 +28,11 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 175px;
+    margin: 175px 43px 120px 43px; 
 }
 
 .banner__figure--imagen {
-    width: 50%;
+    max-width: 50%;
     border-radius: 20px;
 }
 
@@ -55,10 +54,20 @@
 }
 
 .banner__titulo {
+    padding: 40px 0 1px 0;
     font-size: 33px; 
     font-weight: 400;
 }
 
 .banner__parrafo {
     font-weight: 200;
+}
+
+@media screen and (max-width: 1265px) {
+
+    .banner__figure {
+        margin-top: 130px;
+        margin-bottom: 60px;
+    }
+
 }
